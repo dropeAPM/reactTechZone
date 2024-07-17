@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.848);
+    border-radius: 5px;
+    box-shadow: 5px 5px black;
+    border-color: black;
+    border-style: groove;
+  }
+  
+  .div-titulo h1 {
+    color: white;
+  }
+  
+  .div-titulo {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(26, 7, 52);
+  }
+  
+  #items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 3;
+  }
+  
+  .card {
+    margin: 10px;
+    padding: 10px;
+    flex: 1 0 21%; /* ajustar para el número de columnas */
+    box-sizing: border-box;
+    background-color: rgba(240, 240, 240, 0.9);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-body img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #00bfff;
+    border: none;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: red;
+    border: none;
+    color: white;
+  }
+  
+  .btn-success {
+    background-color: green;
+    border: none;
+    color: white;
+  }
+  
+  #boton-vaciar {
+    background-color: red;
+    border: none;
+    color: white;
+  }
+  
+  #boton-pagar {
+    background-color: green;
+    border: none;
+    color: white;
+  }
+  
+  aside {
+    flex: 1;
+    background-color: rgba(240, 240, 240, 0.9);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .categoria-select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
